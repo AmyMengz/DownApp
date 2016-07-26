@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sn_dns1" type="id"></item>
+    <item name="sn_dns2" type="id"></item>
+    
+    <item name="et_et" type="id"></item>
+    
+    <item name="ll_start" type="id"></item>
+    <item name="ll_ll" type="id"></item>
+    <item name="ll_select" type="id"></item>
+    <item name="ll_app" type="id"></item>
+    <item name="ll_add" type="id"></item>
+    
+    <item name="fl_main" type="id"></item>
+    <item name="fl_empty" type="id"></item>
+    <item name="fl_frame" type="id"></item>
+    
+       <item name="tv_auto" type="id"></item>
+       <item name="tv_cycle" type="id"></item>
+    <item name="tv_text" type="id"></item>
+    <item name="tv_num" type="id"></item>
+    <item name="tv_alpha" type="id"></item>
+    <item name="tv_add" type="id"></item>
+    <item name="tv_explain" type="id"></item>
+    
+    
+    <item name="lv_list" type="id"></item>
+    
+    <item name="iv_image" type="id"></item>
+    
+    <item name="sv_scroll" type="id"></item>
+    
+    
+    <item name="tb_ToggleButton" type="id"></item>
+    
+    
+    <item name="cb_checkbox" type="id"></item>
+    <item name="cb_open_record" type="id"></item>
+    
+    
+ 
+    <item name="btn_disconnect" type="id"></item>
+    <item name="btn_start" type="id"></item>
+    <item name="btn_connect" type="id"></item>
+    <item name="btn_refresh" type="id"></item>
+    <item name="btn_save" type="id"></item>
+    <item name="btn_select_app" type="id"></item>
+    <item name="btn_clear" type="id"></item>
+    <item name="btn_delete_file" type="id"></item>
+    <item name="btn_delete_record" type="id"></item>
+    <item name="btn_delete_record2" type="id"></item>
+    <item name="btn_select_all" type="id"></item>
+    <item name="btn_not_select_all" type="id"></item>
+    <item name="btn_select_opposite" type="id"></item>
+    
+</resources>

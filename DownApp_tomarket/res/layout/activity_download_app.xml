@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <TextView
+                android:id="@+id/tv_choose_apk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size"
+                android:layout_marginRight="@dimen/margin_size"
+                android:background="@color/blue02"
+                android:padding="@dimen/padding_size"
+                android:text="@string/choose_to_add_apk"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_size" />
+
+            <ListView
+                android:id="@+id/lv_app_choose_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="singleChoice" >
+            </ListView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp" >
+
+                <EditText
+                    android:id="@+id/et_app_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="60dp"
+                    android:background="@color/gray02"
+                    android:hint="@string/add_an_db_tip"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/et_package_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_app_name"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/gray02"
+                    android:hint="@string/add_pn_db_tip"
+                    android:padding="10dp" />
+                <!-- android:text="com.huodongjia.girl2048" -->
+
+                <Button
+                    android:id="@+id/btn_package_name_set"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/et_package_name"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/et_app_name"
+                    android:background="@drawable/file_record_btn_selector"
+                    android:gravity="center"
+                    android:text="@string/add"
+                    android:textSize="@dimen/text_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="7dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp" >
+
+                <Button
+                    android:id="@+id/btn_get_app_sd"
+                    style="@style/file_listner_btn_style"
+                    android:text="@string/get_app_from_sd" />
+            </LinearLayout>
+    
+
+</LinearLayout>
+</ScrollView>

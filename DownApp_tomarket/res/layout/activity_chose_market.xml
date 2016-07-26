@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_chose_market_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size"
+            android:background="@color/blue02"
+            android:padding="@dimen/padding_size"
+            android:text="@string/choose_market"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size" />
+
+        <RadioGroup
+            android:id="@+id/rg_market"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rb_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/market_baidu" />
+
+            <RadioButton
+                android:id="@+id/rb_360"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/market_360" />
+
+            <RadioButton
+                android:id="@+id/rb_yyb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/market_yyb" />
+
+            <RadioButton
+                android:id="@+id/rb_wdj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/market_wdj" />
+
+            <RadioButton
+                android:id="@+id/rb_pp_assistant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/market_pp_assistant" />
+
+            <RadioButton
+                android:id="@+id/rb_az"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/market_anzhi" />
+
+            <RadioButton
+                android:id="@+id/rb_mu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/market_miu" />
+
+            <RadioButton
+                android:id="@+id/rb_gp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/market_gp" />
+        </RadioGroup>
+          <TextView
+            android:id="@+id/tv_googel_account_src2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size"
+            android:background="@color/blue02"
+            android:padding="@dimen/padding_size"
+            android:text="@string/google_market_account_src2"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size" 
+            />
+
+        <TextView
+            android:id="@+id/tv_googel_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size"
+            android:background="@color/green02"
+            android:padding="@dimen/padding_size"
+            android:text="@string/google_market_account"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_googel_account_src"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size"
+            android:background="@color/blue02"
+            android:padding="@dimen/padding_size"
+            android:text="@string/google_market_account_src"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size" 
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_googel_account_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size"
+            android:background="@color/blue02"
+            android:padding="@dimen/padding_size"
+            android:text="@string/google_market_account_des"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone" />
+          <TextView
+            android:id="@+id/tv_googel_account_accessible_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size"
+            android:background="@color/blue02"
+            android:padding="@dimen/padding_size"
+            android:text="@string/google_market_account_accessible_count"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+</ScrollView>

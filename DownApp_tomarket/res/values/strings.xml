@@ -1,0 +1,112 @@
+<resources>
+
+    <string name="app_name">0726DownLoadApp</string>
+    <string name="downLoad">download</string>
+    <string name="clear">clear</string>
+    <string name="affirm">确定</string>
+    <string name="cancel">取消</string>
+    
+    <string name="dialog_tips">确定要删除此项？</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancle">取消</string>
+    
+    <string name="current_pn_tips">当前下载应用包名： %s</string>
+    <string name="current_percent_tips">已设置下载百分比：%d %%</string>
+ 	<string name="set_percent_ok">设置百分比成功</string>
+ 	<string name="set_percent_err_tips">百分比不能为空,也不能为0</string>
+ 	<string name="set_percent_err_tips2">请输入1-100的数字</string>
+ 	<!-- <string name="not_set_percent">未设置下载百分比,将完全下载</string> -->
+ 	<string name="set_percent_hint">下载百分比%</string>
+ 	
+ 	<string name="add_an_db_tip">添加应用到数据库:应用名</string>
+ 	<string name="add_pn_db_tip">添加应用到数据库:包名</string>
+ 	<string name="auto_to_market_tip">自动跳转应用市场：</string>
+ 	
+ 	<string name="auto_to_hdj_tip">定时跳转到修改器：</string>
+ 	<string name="auto_click_in_market">应用市场自动点击下载：</string>
+ 	<string name="auto_roobot">自动重启手机：</string>
+ 	
+ 	<string name="auto_vpn">Google Play 连接vpn</string>
+ 	
+ 	<string name="imei_same">两次IMEI--相同</string>
+ 	<string name="imei_difference">两次IMEI--不相同</string>
+ 	<string name="imei_old">上次IMEI：</string>
+ 	<string name="imei_new">本次IMEI：</string>
+ 	<string name="set">设置</string>
+ 	<string name="add">添加</string>
+ 	
+ 	
+ 	<string name="not_set_package_yet">尚未设置下载的应用的包名，请先添加到数据库再进行设置</string>
+ 	<string name="get_app_from_sd">从SD卡添加包名信息</string>
+ 	<string name="change_item">修改应用名或包名</string>
+ 	<string name="delete_item">删除该应用设置</string>
+ 	
+ 	<string name="change_item_info">修改应用名或包名</string>
+ 	<string name="change_qpp_name">应用名</string>
+ 	<string name="change_qpp_package_name">包名</string>
+ 	<string name="change_qpp_error">修改失败，可能该包名已经存在！</string>
+ 	
+ 	
+ 	<string name="set_install_hint">显示安装界面n秒后跳转到修改器</string>
+ 	<string name="set_install_tips">显示安装界面 %d 秒后跳转到修改器</string>
+ 	<string name="set_install_error_tips">设置时间不能为空</string>
+ 	
+ 	
+ 	
+ 	<string name="choose_market">选择应用市场:</string>
+ 	<string name="market_baidu">百度手机助手</string>
+ 	<string name="market_360">360手机助手</string>
+ 	<string name="market_yyb">应用宝</string>
+ 	<string name="market_wdj">豌豆荚</string>
+ 	<string name="market_pp_assistant">PP助手</string>
+ 	<string name="market_anzhi">安智市场</string>
+ 	<string name="market_miu">小米应用商店</string>
+ 	<string name="market_gp">Google Play 商店</string>
+ 	<string name="choose_market_tips">当前应用市场：%s </string>
+ 	<string name="choose_market_tips2">当前应用市场：%s &#160;,&#160;点击更改</string>
+ 	
+ 	<string name="google_market_account">Google Play 账户信息格式化</string>
+ 	<string name="google_market_account_src">Google Play 账户源文件：</string>
+ 	<string name="google_market_account_src2">请将Google Play 账户文件命名为Google.txt 置于007/file/DownAppFile 文件夹下，并删除googleCount.txt文件</string>
+ 	<string name="google_market_account_src2_ok">Google Play 账户文件当前可用</string>
+ 	
+ 	
+ 	<string name="google_market_account_des">Google Play 转换后账户文件 %s</string>
+ 	<string name="google_market_account_des_not_exist">未设置Google Paly 账户文件，或者账户文件不可用</string>
+ 	<string name="google_market_account_transation">Google Play 账户文件转换中</string>
+ 	<string name="google_market_account_src_must_txt">文件必须为“.txt”文件</string>
+ 	<string name="google_market_account_des_failed">Google Play 账户文件转换失败</string>
+ 	<string name="google_market_account_accessible_count">Google Play 账户可用条数：%d</string>
+ 	
+ 	<string name="google_market_no_more_account">Google Play 无可用账户</string>
+ 	<string name="please_add_account_file">请添加Google 账户文件</string>
+ 	
+ 	<string name="wdj_no_half">当前选择为豌豆荚，不能部分下载</string>
+ 	
+ 	<string name="need_permission">需要添加使用情况查询权限</string>
+ 	
+ 	<string name="background_service">DownApp</string>
+ 	<string name="background_service_content">后台服务开启</string>
+ 	<string name="need_root_permission">需要Root权限</string>
+ 	<string name="ok">好</string>
+ 	<string name="reboot_recode_tips">重启次数为:%1$d</string>
+ 	<string name="reboot_recode_tips_no_reboot">未重启</string>
+ 	<string name="tts_ok">ok</string>
+ 	<string name="tts_reboot">请帮我重启</string>
+ 	<string name="tts_error">没有语音功能</string>
+ 	
+ 	<!-- Menu -->
+ 	<string name="clear_count">清除下载计数</string>
+ 	<string name="test_tips">提示测试</string>
+ 	<string name="test_vpn">vpn测试</string>
+ 	<string name="googel_test_tips">googel 无账户测试</string>
+ 	
+ 	<string name="no_sd_card">未检测到SD卡</string>
+ 	
+ 	
+ 	<string name="choose_to_add_apk">当前未选择应用，请添加</string>
+ 	<string name="choose_or_add_apk">选择或添加要下载的APK</string>
+ 	<string name="neet_root">请先获取Root权限</string>
+ 	<string name="open_market_err">打开应用市场失败，请先检查您是否已安装该市场</string>
+ 	
+</resources>

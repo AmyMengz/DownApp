@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tes.MainActivity" >
+
+    <item
+        android:id="@+id/btn_clear_count"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/clear_count"/>
+    <item
+        android:id="@+id/btn_vpn_test"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/test_vpn"/>
+    <item
+        android:id="@+id/btn_tts_root_test"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/test_tips"/>
+    <item
+        android:id="@+id/btn_tts_googel_test"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/googel_test_tips"/>
+    <item
+        android:id="@+id/btn_account_remove"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="removeAccount"/>
+
+</menu>
